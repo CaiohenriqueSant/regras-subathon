@@ -577,8 +577,8 @@ with streamlit_analytics.track():
             <div class="roulette-tab tab-green">
               <h3>⭕ QUEM GASTOU MAIS TEM BÔNUS POR GRUPO! 🎰</h3>
               <ul>
-                <li><b>GRUPO 2:</b> Ganha <b>2 ROLETADAS</b> 🎡 🎡 🚀</li>
-                <li><b>GRUPO 3:</b> Ganha <b>4 ROLETADAS</b> 🎡 🎡 🎡 🎡 🚀</li>
+                <li><b>GRUPO 2:</b> Ganha <b>2 ROLETADAS</b> 🎡 🎡</li>
+                <li><b>GRUPO 3:</b> Ganha <b>4 ROLETADAS</b> 🎡 🎡 🎡 🎡</li>
               </ul>
             </div>
           </div>
