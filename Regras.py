@@ -321,7 +321,7 @@ with streamlit_analytics.track():
                     <h3 class="card-title">BITS</h3>
                 </div>
                 <div class="card-time">+45 MINUTOS</div>
-                <p class="card-description">A cada 100 bitolas que mandarem! ✨</p>
+                <p class="card-description">A cada 100 bitolas que mandarem! 💎</p>
             </div>
         </div>
         """, unsafe_allow_html=True)
