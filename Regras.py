@@ -342,7 +342,7 @@ with streamlit_analytics.track():
     <div class="card-base metas-container">
         <div class="centered-content">
             <h3 style='font-size: 1.5rem; margin-bottom: 10px;'>🚀 BÔNUS DE METAS ADICIONAIS - AQUI É CUMULATIVO, FAMÍLIA!</h3>
-            <p class="metas-text-content" style='font-size: 1.1rem; margin-bottom: 15px;'>A cada meta que a gente bater, vai ser <b>+1 HORA EXTRA</b> no timer!🤩</p>
+            <p class="metas-text-content" style='font-size: 1.1rem; margin-bottom: 15px;'>A cada meta que a gente bater, vai ser <b>+20 MINUTOS EXTRA</b> no timer!🤩</p>
             <div class="metas-grid">
                 <div class="meta-item">
                     <div style="font-size: 1.3rem; margin-bottom: 3px;">✅</div>
