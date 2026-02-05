@@ -666,6 +666,6 @@ st.divider()
 # QUINTA SEÇÃO: Agradecimento final
 st.markdown("""
     <div class="card-base thanks-container">
-        <p class="thanks-text-content" style='font-size: 1.4rem; font-weight: bold;'>Manooo, agradeço demais a companhia e a parceria de todos vocês! ❤️<br><br><i>Vamo que vamo, família! É NÓIS! 🤩</i></p>
+        <p class="thanks-text-content" style='font-size: 1.4rem; font-weight: bold;'>Manooo, agradeço demais a companhia e a parceria de todos vocês! ❤️<br></p>
     </div>
     """, unsafe_allow_html=True)
