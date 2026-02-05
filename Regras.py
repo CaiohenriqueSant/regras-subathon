@@ -250,123 +250,65 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 with streamlit_analytics.track():
-
     # TÍTULO PRINCIPAL
-
     st.markdown("<h1 style='text-align: center;'>🎮 NOSSO PRIMEIRÃO SUBATHON! 🤯</h1>", unsafe_allow_html=True)
-
     st.markdown("<h3 style='text-align: center; font-size: 1.3rem;'>Salve família! 👋 Bem-vindos às regras do nosso primeiro Subathon! Vai ser épico, relaxa que eu explico tudinho! 😎</h3>", unsafe_allow_html=True)
-
     
-
     st.divider()
-
     
-
     # PRIMEIRA SEÇÃO: Quanto tempo vamos adicionar?
-
     st.markdown("<h2 style='text-align: center;'>⏳ Quanto tempo vamos adicionar?</h2>", unsafe_allow_html=True)
-
     st.markdown("<p style='text-align: center; font-size: 1.1rem;'>Cada contribuição vai aumentando o timer, então bora encher essa live de tempo! 🚀</p>", unsafe_allow_html=True)
 
-
-
     # Grupos 1, 2, 3
-
     col_g1, col_g2, col_g3 = st.columns(3)
 
-
-
     # Carregando as imagens
-
     try:
-
         img1 = get_image_base64("SUB_g_1.png")
-
         img2 = get_image_base64("SUB_g_2.png")
-
         img3 = get_image_base64("SUB_g_3.png")
-
         bits_img = get_image_base64("BITS.png")
-
     except Exception:
-
         st.error("Erro ao carregar imagens: Certifique-se que os arquivos .png estão na mesma pasta que o Regras.py")
-
         img1 = img2 = img3 = bits_img = ""
 
-
-
     with col_g1:
-
         st.markdown(f"""
-
         <div class="card-base group-1-card">
-
             <div class="group-header">
-
                 <img src='data:image/png;base64,{img1}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
-
                 <h3 class="group-title">SUBS - GRUPO 1</h3>
-
             </div>
-
             <div class="group-time">+30 MINUTOS</div>
-
             <p class="group-description">1 SUB ou gift SUB, é só sucesso! 🎉</p>
-
         </div>
-
         """, unsafe_allow_html=True)
-
-
 
     with col_g2:
-
         st.markdown(f"""
-
         <div class="card-base group-2-card">
-
             <div class="group-header">
-
                 <img src='data:image/png;base64,{img2}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
-
                 <h3 class="group-title">SUBS - GRUPO 2</h3>
-
             </div>
-
             <div class="group-time">+45 MINUTOS</div>
-
             <p class="group-description">Sub T2 (R$ 16,00) - Vale muito a pena!</p>
-
         </div>
-
         """, unsafe_allow_html=True)
-
-
 
     with col_g3:
-
         st.markdown(f"""
-
         <div class="card-base group-3-card">
-
             <div class="group-header">
-
                 <img src='data:image/png;base64,{img3}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
-
                 <h3 class="group-title">SUBS - GRUPO 3</h3>
-
             </div>
-
             <div class="group-time">+120 MINUTOS</div>
-
             <p class="group-description">Sub T3 (R$ 40,00) - Isso aqui é elite pura! 🏆</p>
-
         </div>
-
         """, unsafe_allow_html=True)
-        
+
     # BITS e LIVEPIX lado a lado
     col_bits, col_pix = st.columns(2)
 
@@ -379,7 +321,7 @@ with streamlit_analytics.track():
                     <h3 class="card-title">BITS</h3>
                 </div>
                 <div class="card-time">+45 MINUTOS</div>
-                <p class="card-description">A cada 100 bitolas que mandarem! 💎</p>
+                <p class="card-description">A cada 100 bits que mandarem! Vamos lotar de brilho! ✨</p>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -635,8 +577,8 @@ with streamlit_analytics.track():
             <div class="roulette-tab tab-green">
               <h3>⭕ QUEM GASTOU MAIS TEM BÔNUS POR GRUPO! 🎰</h3>
               <ul>
-                <li><b>GRUPO 2:</b> Ganha <b>2 ROLETADAS</b> 🎡 🎡</li>
-                <li><b>GRUPO 3:</b> Ganha <b>4 ROLETADAS</b> 🎡 🎡 🎡 🎡</li>
+                <li><b>GRUPO 2:</b> Ganha <b>2 ROLETADAS</b> 🎡 🎡 🚀</li>
+                <li><b>GRUPO 3:</b> Ganha <b>4 ROLETADAS</b> 🎡 🎡 🎡 🎡 🚀</li>
               </ul>
             </div>
           </div>
@@ -726,6 +668,6 @@ with streamlit_analytics.track():
     # QUINTA SEÇÃO: Agradecimento final
     st.markdown("""
         <div class="card-base thanks-container">
-            <p class="thanks-text-content" style='font-size: 1.4rem; font-weight: bold;'>Manooo, agradeço demais a companhia e a parceria de todos vocês! ❤️<br></p>
+            <p class="thanks-text-content" style='font-size: 1.4rem; font-weight: bold;'>Manooo, agradeço demais a companhia e a parceria de todos vocês! ❤️<br><br><i>Vamo que vamo, família! É NÓIS! 🤩</i></p>
         </div>
         """, unsafe_allow_html=True)
