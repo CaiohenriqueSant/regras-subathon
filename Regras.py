@@ -319,7 +319,7 @@ with col_bits:
                 <h3 class="card-title">BITS</h3>
             </div>
             <div class="card-time">+45 MINUTOS</div>
-            <p class="card-description">A cada 100 bits que mandarem! Vamos lotar de brilho! ✨</p>
+            <p class="card-description">A cada 100 bitolas que mandaram! ✨</p>
         </div>
     </div>
     """, unsafe_allow_html=True)
