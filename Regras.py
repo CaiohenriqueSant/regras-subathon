@@ -290,7 +290,7 @@ with col_g2:
             <img src='data:image/png;base64,{img2}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
             <h3 class="group-title">SUBS - GRUPO 2</h3>
         </div>
-        <div class="group-time">+45 MINUTOS</div>
+        <div class="group-time">+30 MINUTOS</div>
         <p class="group-description">Sub T2 (R$ 16,00) - Vale muito a pena!</p>
     </div>
     """, unsafe_allow_html=True)
@@ -302,7 +302,7 @@ with col_g3:
             <img src='data:image/png;base64,{img3}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
             <h3 class="group-title">SUBS - GRUPO 3</h3>
         </div>
-        <div class="group-time">+120 MINUTOS</div>
+        <div class="group-time">+1 HORA</div>
         <p class="group-description">Sub T3 (R$ 40,00) - Isso aqui é elite pura! 🏆</p>
     </div>
     """, unsafe_allow_html=True)
