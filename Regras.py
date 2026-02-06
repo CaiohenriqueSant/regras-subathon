@@ -344,11 +344,11 @@ st.markdown("""
         <div class="metas-grid">
             <div class="meta-item">
                 <div style="font-size: 1.3rem; margin-bottom: 3px;">✅</div>
-                <div style="font-size: 1.1rem; font-weight: bold;">5 SUBS 💙</div>
+                <div style="font-size: 1.1rem; font-weight: bold;">10 SUBS 💙</div>
             </div>
             <div class="meta-item">
                 <div style="font-size: 1.3rem; margin-bottom: 3px;">✅</div>
-                <div style="font-size: 1.1rem; font-weight: bold;">300 BITS 💎</div>
+                <div style="font-size: 1.1rem; font-weight: bold;">500 BITS 💎</div>
             </div>
             <div class="meta-item">
                 <div style="font-size: 1.3rem; margin-bottom: 3px;">✅</div>
