@@ -318,7 +318,7 @@ with col_bits:
                 <img src='data:image/png;base64,{bits_img}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
                 <h3 class="card-title">BITS</h3>
             </div>
-            <div class="card-time">+45 MINUTOS</div>
+            <div class="card-time">+30 MINUTOS</div>
             <p class="card-description">A cada 100 bitolas que mandaram! ✨</p>
         </div>
     </div>
