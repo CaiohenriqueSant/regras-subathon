@@ -278,7 +278,7 @@ with col_g1:
             <img src='data:image/png;base64,{img1}' width='25' height='25'> <!-- REDUZIDO DE 30 PARA 25 -->
             <h3 class="group-title">SUBS - GRUPO 1</h3>
         </div>
-        <div class="group-time">+30 MINUTOS</div>
+        <div class="group-time">+20 MINUTOS</div>
         <p class="group-description">1 SUB ou gift SUB, é só sucesso! 🎉</p>
     </div>
     """, unsafe_allow_html=True)
